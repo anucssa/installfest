@@ -27,6 +27,6 @@ if [ "$(id -u )" != "0" ]; then
 fi
 
 # Install courses
-for course in base $*; do
+for course in $*; do
     install_course $course
 done
