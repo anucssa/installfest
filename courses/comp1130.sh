@@ -10,3 +10,9 @@
 ###################################
 # find our gps
 apt-get -y install gnat-gps
+
+# application screen entry
+echo "[Desktop Entry]
+Type=Application
+Name=gnat-gps
+Exec=/usr/bin/gnat-gps" > /usr/share/applications/gnat-gps.desktop
