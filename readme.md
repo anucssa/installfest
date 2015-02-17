@@ -16,7 +16,7 @@ sudo ./install.sh base comp1100 comp1130 comp2300 comp2100 comp2500
 
  + mercurial
  + git
- + sublime text 2
+ + atom text editor
 
 this course can also create a new account for the user and disable the default installfest account.
 
